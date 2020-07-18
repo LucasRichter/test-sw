@@ -13,13 +13,18 @@ export const Content = styled(Box)`
   background-color: white;
   opacity: 0;
   transform: translate(50px, 5px);
-  transition: all .325s ease-in-out;
+  transition: all .125s ease-in-out;
   transition-delay: .125s;
 
   ${p => p.isVisible && css`
     opacity: 1;
     transform: translate(0px, 0px);
   `}
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05) translate(-10px, -10px);
+  }
 `
 
 const CardView = ({
