@@ -35,12 +35,12 @@ const StarshipList = ({
         flexWrap='wrap'
         alignItems='center'
         justifyContent='center'
-        mx='-10px'
+        mx='-25px'
       >
-        {startships.map(ship => (
+        {startships.map((ship) => (
           <Box
             key={ship.url}
-            m='10px'
+            m='25px'
           >
             <CardView
               {...ship}
