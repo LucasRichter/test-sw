@@ -43,6 +43,7 @@ function App () {
         >
           <Input
             placeholder='Distance in MGLT'
+            type='number'
             onChange={e => setDistance(e.target.value)}
           />
         </Box>
