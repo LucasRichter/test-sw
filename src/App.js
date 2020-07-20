@@ -104,7 +104,7 @@ function App () {
           center
           white
         >
-          MGLT Distance Calculator
+          Megalights Calculator
         </Title>
       </Box>
       {getContent()}
